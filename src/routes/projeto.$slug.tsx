@@ -90,8 +90,8 @@ function ProjectPage() {
               <p className="mt-2 text-sm">{project.year ?? "—"}</p>
             </div>
             <div>
-              <p className="eyebrow">Área</p>
-              <p className="mt-2 text-sm">{project.area ?? "—"}</p>
+              <p className="eyebrow">Escopo</p>
+              <p className="mt-2 text-sm">Projeto completo + obra</p>
             </div>
           </div>
         </section>

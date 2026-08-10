@@ -18,9 +18,9 @@ export function SiteNav({
   solid = false,
 }: {
   officeName: string;
-  logoUrl?: string;
-  whatsapp?: string;
-  solid?: boolean;
+  logoUrl?: string | undefined;
+  whatsapp?: string | undefined;
+  solid?: boolean | undefined;
 }) {
   const [scrolled, setScrolled] = useState(false);
 
